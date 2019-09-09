@@ -3,5 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+<<<<<<< HEAD
 *.exe
 .exe
+=======
+>>>>>>> a58cf38b2bea80b06323f5c35e057ad3734df4c6
