@@ -5,7 +5,9 @@ layout: default
 <ul id="posts">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
+	  <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
+	  	<p style="text-align:justify">{{ post.content | strip_html | truncatewords:50 }}</p>
     </li>
   {% endfor %}
 
