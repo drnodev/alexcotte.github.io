@@ -4,8 +4,10 @@ layout: default
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-    <div style="z-index:200" ><ul id="results-container"></ul></div>
+<input type="text" class="form-control" id="search-input" placeholder="search...">
+  <div class="s-result" >
+    <ul id="results-container"></ul>
+  </div>
 </div>
 
 <!-- Script pointing to search-script.js -->

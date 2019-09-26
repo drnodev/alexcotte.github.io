@@ -3,4 +3,23 @@
 ---
 
 //Import
-@import "base", "mixin", "typography", "layout", "syntax.scss", "custom.scss";
+@import "base", "mixin", "typography", "layout", "syntax.scss","bootstrap" ,"custom.scss";
+
+
+.s-result{
+    z-index:200;
+    position:absolute;
+    background-color:white;
+    width: 730px;
+}
+.s-result ul{
+    text-decoration: none;
+    list-style: none;
+}
+.s-result li{
+    padding: 5px;
+    font-size: 1.0em;
+}
+.results-container{
+    width: 100%;
+}
