@@ -1,0 +1,21 @@
+#results-container > li{
+    list-style: none;
+    overflow-wrap: anywhere;
+    border-bottom: 1px solid #cde;
+    padding: 0 !important;
+    width: auto; 
+}
+
+#results-container{
+    z-index: 1090;
+    width: auto; 
+    overflow-y: auto;
+    padding-inline-start:0 !important;
+    padding-right: 15px;
+    float:right;
+    
+}
+
+.bg-light{
+    background-color: white !important;
+}

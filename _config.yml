@@ -1,38 +1,57 @@
-# Site settings
-title: drno
-description: ""
-url: "http://www.drno.dev"
-author:
-  name: "Alexander Ortega"
-  email: "alexanortega@gmail.com"
-  url: "drno.dev"
+# Site
+name: 'drno'
+description: 'drno site'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+disqus: 'drno'
+email: 'alexanortega@gmail.com'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
-# Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
-
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+include: ["_pages"]
+permalink: /:title/
 
 # Plugins
-gems:
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    drno:
+      name:           drno
+      site:           https://drno.dev
+      avatar:         assets/images/avatar1.jpeg
+      bio:            "SUD & Coder"
+      email:          alexanortega@gmail.com
+      twitter:        https://twitter.com/alexcott3
+      github:         https://github.com/alexcotte
+# Defaults
+defaults:
 
-# Custom variables
-version: "1.1.0"
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
 
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
