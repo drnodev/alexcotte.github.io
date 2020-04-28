@@ -22,8 +22,10 @@ authors:
     drno:
       name:           drno
       site:           https://drno.dev
+      title:          "SUD & Coder"
+      slogan:         '"Aprender o desaprender"'
       avatar:         assets/images/avatar1.jpeg
-      bio:            "SUD & Coder"
+      bio:            "drno != 007 Movie ... Salvadorean ..."
       email:          alexanortega@gmail.com
       twitter:        https://twitter.com/drnodev
       github:         https://github.com/drnodev
