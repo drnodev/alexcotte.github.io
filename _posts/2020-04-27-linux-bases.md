@@ -5,17 +5,17 @@ categories: [ linux, cuarentena, covid19 ]
 image: assets/images/linux-01.jpg
 author: drno
 ---
-Hace mucho tiempo que soy usuario de sistemas basados en UNIX como un usuario final, desde 2005 siendo mas exactos, nunca he administrado un servidor en su totalidad, unicamente para tareas de la universidad y otros asusntos nada profesional o formal.
+Hace mucho tiempo que soy usuario de sistemas basados en UNIX como un usuario final, desde 2005 siendo mas exactos, nunca he administrado un servidor en su totalidad, unicamente para tareas de la universidad y otros asuntos nada profesional o formal.
 
-Hoy que estamos en cuarentena quieri recordad viejos tiempos y de paso aprender cosas nuevas en cuantos a la administración del OS, sobre todo para conseguir las certificaciones de AWS.
+Como estamos en cuarentena me puse a recordar viejos tiempos y de paso aprender cosas nuevas en cuantos a la administración del OS, sobre todo para conseguir las certificaciones de AWS.
 
 Ire publicando ciertos contenidos que seran mis anotaciones de los cursos total le pueden servir a alguien más. Vamos a darle.
 
 - Bases del Sistema Operativo.
-    - [Instalar Debian]({{ site.baseurl }}{% link _posts/2020-04-27-debian-install.md %})
-    - [Instalar Centos]({{ site.baseurl }}{% link _posts/2020-04-27-centos-install.md %}) 
-    - [Gestión de Directorios]({{ site.baseurl }}{% link _posts/2020-04-27-linux-adm-directories.md %}) 
-    - Visualización de archivos (texto plano logs)
+    - Instalar Debian
+    - Instalar Centos
+    - [Gestión de Directorios]({{ site.baseurl }}{% link _posts/2020-05-04-linux-adm-directories.md %}) 
+    - [Visualización de archivos (texto plano logs)]({{ site.baseurl }}{% link _posts/2020-05-04-content-files.md %}) 
     - Archivos y permisos
     - Terminales Linux
     - Monitoreo de Procesos y Recursos del sistema
