@@ -12,7 +12,7 @@ Uno de los primeros assets es instalar el server, usare el community la pobresa 
 
 Primer paso bajar el instalador, como estoy en un mac osx, pues me bajo el instalador de mac osx (es obvio).
 
-Para ello nos descargamos el archivo desde el sitio de [mongodb](https://www.mongodb.com/try/download/community){:target="_blank"}, con el archivo en nuestro sistema lo instalamos como cualquier otro programa, pues no.
+Para ello nos descargamos el archivo desde el sitio de [mongodb](https://www.mongodb.com/try/download/community){:target="_blank"}, con el archivo en nuestro sistema ¿Lo instalamos como cualquier otro programa?, pues no.
 
 Lo interesante del server es que cada servicio o programa estan separados y nos viene una carpeta bin, ¿Que rayos hacer con esto?.
 
