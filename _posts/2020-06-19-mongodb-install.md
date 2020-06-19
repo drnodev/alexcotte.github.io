@@ -10,7 +10,7 @@ Mientras espero que el antivirus de mi maquina virtual windows termine el escane
 
 Uno de los primeros assets es instalar el server, usare el community la pobresa no me deja usar la version entreprise :sweat:, pero como ya saben para aprender las bases no necesitamos más.
 
-Primer paso bajar el instalador, como esto en un mac osx, pues me bajo el instalador de mac osx (es obvio).
+Primer paso bajar el instalador, como estoy en un mac osx, pues me bajo el instalador de mac osx (es obvio).
 
 Para ello nos descargamos el archivo desde el sitio de [mongodb](https://www.mongodb.com/try/download/community){:target="_blank"}, con el archivo en nuestro sistema lo instalamos como cualquier otro programa, pues no.
 
