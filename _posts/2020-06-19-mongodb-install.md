@@ -37,7 +37,7 @@ total 626640
 
 ````
 
-Movere los archivos a /usr/local/bin para no tener que modificar los paths o si lo dejan en otro sitios hay que modificar el path para poder usar los programas desde nuestra terminal, lo que consideren adecuado.
+Movere los archivos a /usr/local/bin para no tener que modificar los paths o si lo dejan en otro sitio hay que modificar el path para poder usar los programas desde nuestra terminal, lo que consideren adecuado.
 
 Luego ejecutar
 ```` python
